@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs-core">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/minijumper/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/minijumper/libs" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/minijumper/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/minijumper/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>
