@@ -14,5 +14,3 @@ A classical platformer game developed as a sample about:
  - TextureAtlas
 
 Also, it contains the _minijumper-packer_ project to pack, programatically, textures in a TextureAtlas using _TexturePacker_ API
-
-You can download a release (v0.4) [here](http://bitbucket.org/sfaci/minijumper2dx/downloads/minijumper-desktop_v0.4.jar)
