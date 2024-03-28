@@ -52,7 +52,6 @@ public class RenderManager {
      * Renderiza el HUD de la partida
      */
     private void drawHud() {
-
         batch.draw(ResourceManager.getRegion("player_idle_down"), cameraManager.camera.position.x - CAMERA_WIDTH / 2 + 10, CAMERA_HEIGHT - TILE_HEIGHT);
         font.draw(batch, " x " + spriteManager.player.lives, cameraManager.camera.position.x - CAMERA_WIDTH / 2 + PLAYER_WIDTH + 10, CAMERA_HEIGHT - TILE_HEIGHT / 2);
 

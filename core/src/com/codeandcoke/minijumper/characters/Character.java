@@ -18,7 +18,6 @@ public abstract class Character extends SpriteAnimation {
     public boolean isJumping;
 
     public Character(float x, float y, int lives, Vector2 velocity) {
-
         super(x, y);
         this.lives = lives;
         this.velocity = velocity;

@@ -43,7 +43,6 @@ public class GameScreen implements Screen {
 
     @Override
     public void render(float dt) {
-
         // Pinta el fondo de la pantalla de azul oscuro (RGB + alpha)
         Gdx.gl.glClearColor(0, 0, 0.2f, 1);
         // Limpia la pantalla

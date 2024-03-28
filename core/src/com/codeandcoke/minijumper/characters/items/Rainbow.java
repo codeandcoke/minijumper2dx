@@ -19,7 +19,7 @@ public class Rainbow extends Item {
     public Rainbow(float x, float y) {
         super(x, y);
         currentFrame = ResourceManager.getRegion("rainbow", 1);
-        animation = new Animation<>(0.2f, ResourceManager.getRegions("rainbow"));
+        animation = new Animation<TextureRegion>(0.2f, ResourceManager.getRegions("rainbow"));
         stateTime = 0;
     }
 

@@ -18,7 +18,6 @@ public class ConfigurationManager {
      * @return
      */
     public static boolean isSoundEnabled() {
-
         return prefs.getBoolean("sound");
     }
 }

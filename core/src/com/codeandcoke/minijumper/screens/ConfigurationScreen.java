@@ -40,15 +40,12 @@ public class ConfigurationScreen implements Screen {
         table.center();
 
         Label title = new Label("MINIJUMPER\nSETTINGS", game.getSkin());
-        title.setColor(Color.RED);
         title.setFontScale(2.5f);
 
         final CheckBox checkSound = new CheckBox(" SOUND", game.getSkin());
-        checkSound.setColor(Color.RED);
         checkSound.setChecked(prefs.getBoolean("sound"));
         checkSound.addListener(new ClickListener() {
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-
                 prefs.putBoolean("sound", checkSound.isChecked());
             }
         });
